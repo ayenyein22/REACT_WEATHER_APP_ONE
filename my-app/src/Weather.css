@@ -1,0 +1,58 @@
+.Weather {
+  background-color: rgb(171, 95, 241);
+  color: white;
+  display: block;
+  margin: 30px auto;
+  width: 60%;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+}
+form {
+  width: 100%;
+}
+.form-input {
+  padding: 5px;
+  height: 35px;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  width: 55%;
+  margin-right: 30px;
+}
+
+.temp {
+  font-size: 50px;
+  font-weight: 500;
+}
+.unit {
+  position: relative;
+  top: -26px;
+}
+.temp-link {
+  color: black;
+}
+.WeatherInfo {
+  width: 70%;
+}
+.info-container {
+  width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .form-button {
+    width: 90px;
+  }
+  .form-input {
+    width: 200px;
+    margin-right: 10px;
+  }
+  .Weather {
+    width: 400px;
+  }
+  .WeatherInfo {
+    margin: auto 0;
+  }
+}
